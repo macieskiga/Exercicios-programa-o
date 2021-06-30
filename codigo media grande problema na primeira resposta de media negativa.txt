@@ -1,0 +1,53 @@
+var materia, n1, n2, sim, n3, n4,  media, media2;
+ {
+ materia = prompt ("por favor digite a matéria que deseja ver a média\n");
+
+ n1 = prompt ("por favor insira a nota do primeiro trimestre\n");
+ n2 = prompt ("por favor insira a nota do segundo trimestre\n");
+ 
+ n1 = parseInt (n1);
+ n2 = parseInt(n2);
+ media = (n1 + n2)/2;
+
+  if (media >= 7) { {
+  
+  alert("parabéns você foi aprovado com a média: ", media);
+  alert("na matéria: ", materia);
+  
+  resposta = prompt("gostaria de verificar outra matéria?\n digite sim ou nao: ");
+    }
+  
+     if (resposta == "sim") {
+        materia2 = prompt ("por favor digite a matéria que deseja ver a média\n");
+
+        n3 = prompt ("por favor insira a nota do primeiro trimestre\n");
+        n4 = prompt ("por favor insira a nota do segundo trimestre\n");
+        n3 = parseInt (n3);
+        n4 = parseInt(n4);
+        media2 = (n3 + n4)/2;
+   
+         if (media2 >= 7) {
+            alert("parabéns você foi aprovado com a média: ", media2);
+            alert("na matéria: ", materia2);
+            alert("Nos vemos ano que vem feliz natal!")}  
+  
+      }  if (media2 < 7) {
+  
+           alert("você foi reprovado, você é muito burro bixo:", media2);
+           ("na matéria:", materia2);
+           alert("vai ficar fazendo aula e prova em dezembro burrão")}
+
+   if (resposta == "nao") {
+   alert("Nos vemos ano que vem feliz natal!"); 
+   
+   } if (media <= 6.9) {
+     
+     alert("você foi reprovado, você é muito burro bixo:", media);
+       ("na matéria:", materia);
+     alert("vai ficar fazendo aula e prova em dezembro burrão") } 
+  }  if (media <= 6.9) 
+     
+     alert("você foi reprovado, você é muito burro bixo:", media);
+       ("na matéria:", materia);
+     alert("vai ficar fazendo aula e prova em dezembro burrão") 
+     }

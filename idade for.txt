@@ -1,0 +1,16 @@
+var idade, cont = 1;
+
+{
+
+ idade = prompt ("Insira sua idade");
+ 
+ for (var cont = 1; idade <= 0 && cont < 3; cont ++)  {
+ idade = prompt  ("Idade Inválida digite novamente");
+
+ } if (cont <3) {
+  alert ("Sua idade é " + idade); 
+
+  } else {
+    alert ("número de tentativas excedidas");
+  } }
+

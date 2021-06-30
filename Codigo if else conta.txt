@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+char nome [15];
+float sal;
+
+printf ("Digite Seu nome: ");
+scanf (" %s", &nome);
+
+printf ("Digite seu Sálario: ");
+scanf ("%f", &sal);
+
+if (sal <= 1500) {
+  sal = sal + (sal * 0.12); 
+printf ("Seu salário é: %.2f", sal);   
+} else {
+  sal = sal + (sal * 0.1);
+printf ("Seu salário é: %.2f", sal); 
+}
+}
+
+ou
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+char nome [15];
+float sal;
+
+printf ("Digite Seu nome: ");
+scanf (" %s", &nome);
+
+printf ("Digite seu Sálario: ");
+scanf ("%f", &sal);
+
+if (sal <= 1500) {
+  sal = sal + (sal * 0.12); 
+ 
+} else {
+  sal = sal + (sal * 0.1);
+}
+
+printf ("Seu salário é: %.2f", sal); 
+
+}

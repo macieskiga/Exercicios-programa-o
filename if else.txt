@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+int n1, n2;
+float Y;
+printf ("Qual o número 1\n");
+scanf ("%d", &n1);
+
+printf ("qual o número 2\n");
+scanf ("%d", &n2);
+
+if(n1 > n2){
+printf("Número 1 é maior\n");
+} else{
+printf("Número 2 é maior\n");
+}
+   
+
+    
+   
+}

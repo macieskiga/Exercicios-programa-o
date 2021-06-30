@@ -1,0 +1,21 @@
+int main(void){
+   char x;
+   char *str = "Dolfo";
+   char str[] = "Dolfo";
+   char nome[16]; 
+  char str[5] = { 'D', 'o', 'l', 'f', 'o'};
+
+  x = 'e';
+  str[0] = 'D';
+  str[1] = 'o';
+  str[2] = 'f';
+  str[3] = 'o';
+
+ printf("digite seu nome: ");
+ scanf(" %[^\n]s", &nome);   
+     gets(nome);
+     printf(">>> %s\n", nome);
+     printf(">>> %c\n", x);
+     printf(">>> %s\n", str);
+   return 0;
+ }

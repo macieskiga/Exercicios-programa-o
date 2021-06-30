@@ -1,0 +1,4 @@
+var idade = prompt (“Digite sua idade”);
+idade = parseInt (idade);
+var idade_somada = idade + 1;
+alert ("Você tem " + idade_somada + " anos de idade. ");

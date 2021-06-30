@@ -1,0 +1,60 @@
+function soma (n1, n2) {
+    var res = n1 + n2;
+    return res; 
+}
+function num () {
+  var N = parseInt (prompt ("Digite um número"));
+  return N;
+}
+
+
+function sub (n1, n2){
+   var s = n1 - n2;
+   return s;
+}
+
+function multi (n1, n2){
+   var m = n1 * n2;
+  return m;
+}
+
+function div (n1, n2){
+  var d = n1 / n2
+  return d;
+}
+
+
+function imprimir (total){
+  alert (total);
+}
+
+
+
+var opc;
+
+opc = prompt ("escolha uam opção: \n 1.Soma \n 2.Subtração \n 3.Multiplicação \n 4.Divisão \n");
+
+if (opc ==1){
+  var SOMA = "A soma é " + soma (num(),num()); 
+  imprimir (SOMA);
+}
+
+if (opc == 2){
+  var SUB = "A subrtração é " + sub (num(), num());
+  imprimir (SUB); 
+  }
+
+  if (opc == 3){
+    var m = "A multiplicação é" + multi (num(), num());
+    imprimir (m);
+  }
+
+  if (opc == 4){
+    var div, numerador, denominador;
+    numerador = num();
+    do{
+      denominador = num();  
+    } while (denominador == 0);
+    div = "A divisão é " + div (numerador, denominador);
+    imprimir (div);
+  }

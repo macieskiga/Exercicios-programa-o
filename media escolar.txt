@@ -1,0 +1,25 @@
+var materia, n1, n2, media;
+{ 
+ materia = prompt ("por favor digite a matéria que deseja ver a média\n")
+
+ n1 = prompt ("por favor insira a nota do primeiro trimestre\n")
+ n2 = prompt ("por favor insira a nota do segundo trimestre\n")
+ 
+ n1 = parseInt (n1)
+ n2 = parseInt(n2)
+ media = (n1 + n2)/2
+
+  if (media >= 7) {
+  
+  alert("parabéns você foi aprovado com a média: ", media)
+  alert("na matéria: ", materia)
+
+
+} else {
+  
+  alert("você foi reprovado, você é muito burro bixo:", media)
+       ("na matéria:", materia)
+
+  }
+  
+  }

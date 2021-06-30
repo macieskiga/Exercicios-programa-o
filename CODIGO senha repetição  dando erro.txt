@@ -1,0 +1,11 @@
+var senha, repete;
+
+{
+do { 
+  senha = prompt ("Insira sua senha númerica de 6 dígitos\n")
+  } while (senha.lenght != 6); 
+    repete = senha ("Redigite a sua senha para revalidação. Tem que ser a mesma\n");
+    while (repete != senha) {
+      repete = prompt ("A senha não é a mesma. Insira novamente a senha para validação.")
+    } { alert ("Você conseguiu"); }       
+}

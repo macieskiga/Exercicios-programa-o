@@ -1,0 +1,18 @@
+var idade, idade_somada; 
+{
+idade = prompt ("Qual a sua idade?");
+idade = parseInt (idade);
+idade_somada = idade + 1;
+alert("você tem " + idade_somada + " anos de idade");
+
+ if (idade >= 18) {
+   alert ("velho decrépito");
+
+  
+ } else {
+   alert ("vai voltar pro colinho da vovó seu feto");
+ }
+
+
+
+}

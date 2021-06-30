@@ -1,0 +1,29 @@
+var preco_arroz1, preco_arroz2, preco_feijao1, preco_feijao2,  preco_linguica, preco_lentilha, resposta, total_compras;
+
+
+{
+ preco_arroz1 = prompt("Preço do Arroz tipo 1\n");
+ preco_arroz2 = prompt("Preço do Arroz tipo 2\n");
+ preco_feijao1 = prompt("Preço do Feijão Preto\n");
+ preco_feijao2 = prompt("Preço do Feijão Branco\n");
+ preco_linguica = prompt("Preço da Lingüiça Defumada\n");
+ preco_lentilha = prompt("Preço da Letilha\n");
+
+  resposta = prompt("Tem Arroz tipo 1?\n responder sim ou não");
+  if (resposta == "sim") {
+    preco_arroz1 = parseInt(preco_arroz1); 
+    preco_feijao1 = parseInt(preco_feijao1);
+    total_compras = preco_arroz1 + (preco_feijao1*2);
+     
+} else { 
+  prompt ("Tem arroz tipo 2?\n responder sim ou não");
+  if (resposta == "sim") {
+  preco_arroz2 = parseInt(preco_arroz2);
+  preco_feijao2 = parseInt(preco_feijao2);
+  total_compras = (preco_arroz2*3) + preco_feijao2;
+} else {
+  preco_lentilha = parseInt(preco_lentilha);
+  preco_linguica = parseInt(preco_linguica);
+  total_compras = (preco_lentilha*2) + preco_linguica;
+} }
+alert("o preço total das compras foi de R$:" + total_compras); }

@@ -1,0 +1,9 @@
+var nome = [], email = [], telefone = [];
+
+for (i=0; i < 3; i++)
+
+{
+nome[i] = prompt ("digite o nome da" + (i+1) + "a pessoa");
+email[i] = prompt ("digite o email da" + (i+1) + "a pessoa");
+telefone[i] = prompt ("digite o telefone da" + (i+1) + "a pessoa");
+alert ("\n") }

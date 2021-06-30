@@ -1,0 +1,10 @@
+var idade;
+
+{
+
+ idade = prompt ("Insira sua idade");
+ while (idade <= 0)  {
+idade = prompt  ("Idade Inválida digite novamente");
+  }
+alert ("Sua idade é " + idade);
+}

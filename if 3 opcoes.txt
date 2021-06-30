@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+int n1, n2, n3;  
+char nome [15];
+
+printf("Digite três números: ");
+scanf("%d %d %d", &n1, &n2, &n3);
+
+if (n1 > n2) 
+{ if (n1 > n3) {
+printf("Primeiro número %d é maior", n1);
+} else 
+printf(" Terceiro número %d é maior", n3);
+} else { if (n2 > n3) {
+printf("Primeiro número %d é maior", n1);
+} else 
+printf(" Terceiro número %d é maior", n3);
+}
+
+
+}

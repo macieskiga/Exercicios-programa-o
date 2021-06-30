@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main(void) {
+  int opcao;
+  while(1==1){ 
+  printf("Digite um numero de 1 a 5: ");
+  scanf("%d", &opcao);
+
+  switch(opcao){
+   case 1:
+   printf("vc digitou 1\n");
+   break;
+
+   case 2:
+   printf("vc digitou 2\n");
+   break;
+
+   case 3:
+   printf("vc digitou 3\n");
+   break;
+  
+  case 4:
+   printf("vc digitaste 4\n");
+   break;
+   
+   case 5:
+   printf("VC digitou 5\n");
+   break;
+   default:
+    printf ("voce é burro pqp\n");  
+  }  
+   }
+
+}
